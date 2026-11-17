@@ -1,0 +1,27 @@
+name: spongebubble_customer
+description: SpongeBubble customer app (Android, iOS and web).
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  go_router: ^14.2.0
+  shared_preferences: ^2.3.2
+  sb_core:
+    path: ../../packages/sb_core
+  sb_ui:
+    path: ../../packages/sb_ui
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

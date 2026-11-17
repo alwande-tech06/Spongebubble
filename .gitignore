@@ -1,0 +1,23 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+pubspec_overrides.yaml
+**/ios/Pods/
+**/ios/.symlinks/
+**/android/.gradle/
+**/android/local.properties
+**/android/app/upload-keystore.jks
+**/android/key.properties
+*.iml
+.idea/
+.vscode/
+.DS_Store
+
+# Secrets: never commit API keys or gateway credentials
+.env
+*.env
+**/google-services.json
+**/GoogleService-Info.plist

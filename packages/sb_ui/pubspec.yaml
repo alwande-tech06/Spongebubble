@@ -1,0 +1,22 @@
+name: sb_ui
+description: SpongeBubble design system for Flutter (colours, type, components, logo).
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  sb_core:
+    path: ../sb_core
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+
+flutter:
+  assets:
+    - assets/
